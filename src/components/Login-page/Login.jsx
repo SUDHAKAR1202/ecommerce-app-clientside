@@ -1,4 +1,5 @@
 import "./Login.css";
+import { Link } from "react-router-dom";
 import loginImage from "../../assets/images/login-image.png";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
@@ -35,7 +36,7 @@ const Login = () => {
             <label>
               <strong>Password</strong>
             </label>
-            <span>Forgot Password?</span>
+            <span><Link to="/forgot-password">Forgot Password?</Link></span>
           </div>
           <input type="password" placeholder="Enter your password" />
 
@@ -56,7 +57,7 @@ const Login = () => {
           </div>
 
           <p className="signup-text">
-            Don't have an account? <span>Sign Up</span>
+            Don't have an account? <span><Link to="/signup">Sign Up</Link></span>
           </p>
         </div>
       </div>

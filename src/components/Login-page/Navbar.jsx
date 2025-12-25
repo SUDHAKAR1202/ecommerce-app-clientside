@@ -16,8 +16,6 @@ const Navbar = () => {
         <li>Shop</li>
         <li>About Us</li>
         <li>Contact</li>
-        <li className="signup">Sign Up</li>
-        <li className="login">Login</li>
       </ul>
     </nav>
   );

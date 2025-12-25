@@ -30,23 +30,10 @@
   gap: 30px;
 }
 
-/* LI */
+
 .nav-links li {
   font-size: 15px;
   cursor: pointer;
   white-space: nowrap;
 }
 
-
-.signup {
-  background: #f1f5f9;
-  padding: 8px 18px;
-  border-radius: 8px;
-}
-
-.login {
-  background: #1e88e5;
-  color: white;
-  padding: 8px 18px;
-  border-radius: 8px;
-}
