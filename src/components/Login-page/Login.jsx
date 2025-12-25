@@ -1,5 +1,5 @@
 import "./Login.css";
-import loginImage from "../assets/login-image.png";
+import loginImage from "../../assets/images/login-image.png";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 

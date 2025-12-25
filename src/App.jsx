@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar'
-import Login from './components/Login'
+import Navbar from './components/Login-page/Navbar'
+import Login from './components/Login-page/Login'
 import './App.css'
 
 function App() {
